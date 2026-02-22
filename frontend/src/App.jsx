@@ -9,7 +9,7 @@ import Login from './pages/Login';
 import Notes from "./pages/Notes";
 import AppLayout from './layouts/AppLayout';
 import { PrimeReactProvider } from 'primereact/api';
-import DailyPlanner from './pages/dailyPlanner';
+import DailyPlanner from './pages/DailyPlanner';
 import FinanceDashboard from './pages/FinancePlanner';
 import ProfilePage from './pages/Profile';
 
