@@ -162,28 +162,6 @@ const Login = () => {
     }
   };
 
-  const handleGoogleLogin = () => {
-    loginWithRedirect({
-      authorizationParams: {
-        connection: "google-oauth2",
-        prompt: "select_account",
-      },
-    }).catch((err) => {
-      console.error("Google login failed", err);
-      toast.error("Google login failed");
-    });
-  };
-
-  const handleGithubLogin = () => {
-    loginWithRedirect({
-      authorizationParams: {
-        connection: "github",
-      },
-    }).catch((err) => {
-      console.error("GitHub login failed", err);
-      toast.error("GitHub login failed");
-    });
-  };
 
 
   return (
